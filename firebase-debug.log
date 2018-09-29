@@ -1,0 +1,30 @@
+[debug] [2018-09-29T00:02:43.479Z] ----------------------------------------------------------------------
+[debug] [2018-09-29T00:02:43.516Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Zafar Zafran\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-09-29T00:02:43.517Z] CLI Version:   4.2.1
+[debug] [2018-09-29T00:02:43.517Z] Platform:      win32
+[debug] [2018-09-29T00:02:43.518Z] Node Version:  v8.12.0
+[debug] [2018-09-29T00:02:43.522Z] Time:          Sat Sep 29 2018 08:02:43 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-09-29T00:02:43.522Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-29T00:02:43.599Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-29T00:02:43.604Z] > authorizing via signed-in user
+[debug] [2018-09-29T00:02:43.614Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/baadur-160e7  
+ 
+[debug] [2018-09-29T00:02:47.195Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-29T00:02:47.200Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/baadur-160e7  
+ 
+[debug] [2018-09-29T00:02:49.611Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Zafar Zafran\Documents\GitHub\lagirepo'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-09-29T00:02:58.433Z] Fetching environment
+[debug] [2018-09-29T00:02:58.449Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/497275462706:getServerAppConfig  
+ 
+[debug] [2018-09-29T00:02:58.451Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/497275462706/clients/_:getWebAppConfig  
+ 
+[debug] [2018-09-29T00:03:08.672Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-29T00:03:08.673Z] Starting @google-cloud/functions-emulator
+[debug] [2018-09-29T00:03:08.752Z] <<< HTTP RESPONSE 200
+[info] i  hosting[baadur-160e7]: Serving hosting files from: public
+[info] +  hosting[baadur-160e7]: Local server: http://localhost:5000
